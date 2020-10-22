@@ -1,0 +1,13 @@
+main: com.autochrome.dailyquests.Main
+name: DailyQuests
+version: 0.1
+author: AutoChrome
+
+commands:
+  quest:
+    description: Display the users quest.
+  distributeDaily:
+    description: Distributes quests to all players online. Requires the permission dailyquests.manage
+  addDaily:
+    description: Your stuff
+    usage: /adddaily [break|place|kill|pickup] [give|xp|eco] [id|add|give] [quantity|target|target] [amount|amount] Condition ConditionQuantity Description 

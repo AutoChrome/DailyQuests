@@ -1,0 +1,16 @@
+# %newline% = New line
+# %questType% = Type of the quest
+# %progress% = The current progress of the players daily quest
+# %questConditionQuantity% = The total required amount to complete daily quest
+# %questCondition% = Condition of the quest I.E Zombie, Dirt, etc
+# %reward% = Command used to give player reward
+# %rewardDescription% = The details of the reward
+
+messages:
+  progress: 
+    message: '%questType% %progress%/%questConditionQuantity% %questCondition%'
+  complete: 'You have completed your daily quest!'
+  distribute:
+    chat: 'Daily quest distributed! Here is your daily quest'
+timer:
+  delay: 60
